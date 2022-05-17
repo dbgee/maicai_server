@@ -1,9 +1,8 @@
-package com.tencent.wxcloudrun.dao;
+package com.kk.dao;
 
-import com.tencent.wxcloudrun.model.Counter;
+import com.kk.model.Counter;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import java.util.List;
 
 @Mapper
 public interface CountersMapper {
